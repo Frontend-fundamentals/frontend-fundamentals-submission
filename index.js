@@ -1,5 +1,5 @@
 const addTodoInput = undefined /* 1 Remove undefined and write the code to locate add-todo-input-field*/
-const addTodoButton = undefined /* 2 Remove undefined and write the code to locate add-todo-input-button*/
+const addTodoButton = undefined /* 2 Remove undefined and write the code to locate add-todo-button*/
 
 addTodoButton.addEventListener('click', () => {
     if (addTodoInput.value?.length) {
