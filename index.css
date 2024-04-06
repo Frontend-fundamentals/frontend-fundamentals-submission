@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #b4fd36;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#title {
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+#home-tab  {
+    margin-left: 4em;
+    font-weight: 700;
+}
+
+#product-tab{
+    font-weight: 700;
+}
+#resouces-tab{
+    font-weight: 700;
+}
+#pricing-tab{
+    font-weight: 700;
+}
+
+#login-button {
+    font-weight: 700;
+    margin-left: auto;
+}
+
+#signup-button {
+    color: #b4fd36;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.left-content{
+    margin-top: 20%;
+}
+
+.right {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.right-content{
+    margin-top: 20%;
+    width: 100%;
+    height: 55svh;
+    background-color: white;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+
+#heading {
+    font-size: 4.5em;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+#demo-button {
+    color: black;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.decorator{
+    font-size: 1.3em;
+margin: 5px;
+}
+
+#button-group {
+    margin-top: 40px;
+}
+
+#description {
+    font-size: 2em;
+    font-weight: 650;
+}
+
+.right {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
