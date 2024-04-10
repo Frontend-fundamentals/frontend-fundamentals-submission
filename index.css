@@ -1,5 +1,168 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex-grow: 0;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 0 23px 0 23px;
+}
+
+.description {
+    font-size: 14px;
+    /* min-width: 486px; */
+    flex-grow: 0;
+    margin: 0 20px 0 20px;
+}
+
+.detail-desc {
+    margin: 0 20px 0 20px;
+    color: #CA0606;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.buy-button {
+    margin: 0 20px 0 20px;
+    background-color: #472F19;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reviews-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-title {
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex: 1 2 160px;
+    padding: 1em;
+}
+
+.reviewer-name {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.reviewer-content {
+    font-size: 11px;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.advertisment {
+    margin: 0 39px 0 39px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.contact-us {
+    font-size: 10px;
+}
+
+hr {
+    width: 80%;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    .image {
+        z-index: -1;
+        right: 0px;
+        position: absolute;
+    }
+
+    .content {
+        top: 0;
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .description {
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .detail-desc {
+        font-size: 16px;
+    }
+
+    .buy-button {
+        font-size: 16px;
+        height: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .review-title {
+        font-size: 20px;
+    }
+
+    .reviewer-name {
+        font-size: 14px;
+    }
+
+    .reviewer-content {
+        font-size: 14px;
+    }
+
+    .advertisment {
+        font-size: 16px;
+    }
+
+    .contact-us {
+        font-size: 16px;
+    }
+
+    .footer {
+        gap: 60px;
+    }
+
 }
